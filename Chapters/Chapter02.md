@@ -146,4 +146,18 @@ after you are in that folder, run the following command:
 > java -jar .\BuildTools.jar --rev latest 
 ```
 
-Now the spigot installer  will run, and this will take a while 
+Now the spigot installer  will run, and this will take a while like a long while because it has to download all the files from the online spigot repository and unpack it.
+
+Go on now, take a break, get some coffee ☕ and let the file do its thing...
+
+- - -
+
+Once the file is downloaded, feel free to close the Command Prompt or terminal and head on over to the file.
+
+NOTE: sometimes the jar may not install because the machine might be using the wrong version of jar. And sometimes the jar file might install a different version of spigot, if that is the case, then in the command we used above change `latest` to `{version}` in our current case `1.19`.
+
+```
+> java -jar .\BuildTools.jar --rev 1.19
+```
+
+Once you have checked and verified that the correct version is installed.
