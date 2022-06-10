@@ -161,3 +161,82 @@ NOTE: sometimes the jar may not install because the machine might be using the w
 ```
 
 Once you have checked and verified that the correct version is installed.
+make a new folder called "mc_server", this is where we will launch the server.
+
+- - - 
+
+### Launching the Minecraft server
+
+to launch the server we need to take the `spigot-1.19.jar` file and put into the newly created folder.
+
+once we do this, we need to run it, but instead of directly clicking on the jar, we have a different way of running it.
+
+### Windows:
+1. Paste the following text into a text document. Save it as start.bat in the same directory as spigot.jar:
+
+```
+@echo off
+java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar nogui
+pause
+```
+**NOTE: # is your allocated server memory in GB**
+
+2. Double click the batch file.
+
+- - -
+
+### Linux:
+1. Create a new startup script (start.sh) in the server directory to launch the JAR:
+```
+#!/bin/sh
+
+java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar nogui
+``` 
+**NOTE: # is your allocated server memory in GB**
+
+2. Open your terminal and execute the following in the directory:
+```
+chmod +x start.sh
+```
+3. Run your start up script:
+```
+./start.sh
+```
+
+- - -
+
+### Mac OS X
+1. Create a new startup script (start.command) to launch the JAR in the server directory:
+```
+Code (example (Unknown Language)):
+#!/bin/sh
+
+cd "$( dirname "$0" )"
+java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar nogui
+```
+ **NOTE: # is your allocated server memory in GB**
+
+2. Open Terminal and type into it: (Don't hit enter!)
+```
+chmod a+x
+```
+3. Drag your startup script file into the Terminal window. (Be sure to put a space between chmod a+x and your startup script!)
+4. Double click your startup script.
+
+- - -
+
+Once we are done with this much, we have reached a good point! ☕ We now have java installed, and a working minecraft server to use, But how to use it?
+
+to run your minecraft server, just double click the `start.bat` file that we created and java will do the rest of the magic by itself! but one thing to note is if you start the minecraft server for the first time, you need to go to a pre-generated text file that is `eula.txt` and change `eula=false` to `eula=true`, this process repeats only if you are launching a new server. after you change false to true, save the file and exit out, and run `start.bat` again!
+
+- - -
+
+You are all set!, the only thing remaining is an IDE, you can use any IDE to edit java, but we suggest using IntelliJ IDEA as it is now crowned the best java editor out there 👑
+
+To install IntelliJ IDEA head on over to **[IntelliJ IDEA download](https://www.jetbrains.com/idea/download/)** and download your preferred installation. the installation of IntelliJ is also quite straight forward, just a bunch of "Next" and you will be ready to use intelliJ in no time!
+
+- - -
+
+## Useful Links:
+- ### **[Setting Environment vars in other OS](https://www.codejava.net/java-core/set-java-home-in-macos-linux)**
+- ### **[Starting a spigot server](https://www.spigotmc.org/wiki/spigot-installation/)** 

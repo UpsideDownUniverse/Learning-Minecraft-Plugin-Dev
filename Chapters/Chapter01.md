@@ -45,5 +45,7 @@ Pre-requisites for making Minecraft plugins are:
 
 If you, at any point feel you are stuck, feel free to drop a message in my DMs or try hoping into any of the Minecraft developer servers, **you will find the required help,** or if that does not solve things, try researching the problem and submit a PR to this repository as then we can add that error onto our page, just so other developers like you, don't face the same problems 😊👍
 
+- - -
+
 ## Useful links:
 - ### **[Java Crash course](https://www.spigotmc.org/wiki/crash-course-to-java/)**
