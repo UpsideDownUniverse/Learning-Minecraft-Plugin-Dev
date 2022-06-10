@@ -22,13 +22,13 @@ java --version
 ```
 
 you should get an output like this:  
-![ss1](https://insert_link_here.)
+![ss1](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss1.png)
 
 we have Java version `17.0.1 2021-10-19 LTS` on our device but,    
 NOTE: this may or may not be the same thing for you, in that case, we need to go and install java version 17 from the oracle website.
 
 If you encountered an error such as the one below:  
-![ss2](https://insert_link_here.)
+![ss2](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss2.png)
 
 Then do not worry, it also means java is not installed on your machine.
 
@@ -63,13 +63,15 @@ NOTE: We are setting environment variables on a Windows machine, but the links o
 Setting Environment Variables:  
 First open windows search and search for "Environment Variables" you should see an option called "Edit the system Environment Variables" there, click on that.
 
-![ss3](https://insert_link_here.)
+![ss3](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss3.png)
 
 Then click on the "Environment Variables..." button,
 
-![ss4](https://insert_link_here.)
+![ss4](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss4.png)
 
 Here you should see 2 windows "User variables for user" and "System variables", we need to focus on system variables for now. Here, click on "New..." and enter the following details:
+
+![ss5](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss5.png)
 
 ```
 Variable name: JAVA_HOME
@@ -81,11 +83,11 @@ The most common path that java will be installed at is `"C:/Program Files/Java/j
 
 after you are done selecting, you should have something like this:  
 
-![ss6](https://insert_link_here.)
+![ss6](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss6.png)
 
 once you are done, click "Ok: and then double click on the "Path" item in the list.  
 
-![ss7](https://insert_link_here.)
+![ss7](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss7.png)
 
 over here click "New" and type the following `"%JAVA_HOME%\bin"`, after you are done, find an item on the same list which is along the lines of `"C:\Program Files\Common Files\Oracle\Java\javapath"` click on it and press "Delete".
 
@@ -126,7 +128,7 @@ To make a spigot server we need to get the latest spigot.jar file, spigot provid
 to download spigot head on over to **[spigotmc.org - Buildtools](https://hub.spigotmc.org/jenkins/job/BuildTools/)** and click on "BuildTools.jar" which is right under "Last Successful Artifacts" as soon as you click on it, it will download a buildtools.jar file.
 
 (I have downloaded a previous version of buildtools, hence it is showing me BuildTools (1).jar, but do not worry, it is the same thing!)  
-![ss8](https://insert_link_here.)
+![ss8](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/785f5555a798262b280c0e3da23d7ad9b06f182d/assets/ss8.png)
 
 After you download this, your browser might flag this file as "potentially harmful" just click on options and select "Keep" because I assure you, this file is not at all harmful to your machine!
 
