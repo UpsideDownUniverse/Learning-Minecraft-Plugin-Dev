@@ -143,3 +143,7 @@ If you do not know how to change directories on Command prompt or terminal just 
 
 after you are in that folder, run the following command:
 ```
+> java -jar .\BuildTools.jar --rev latest 
+```
+
+Now the spigot installer  will run, and this will take a while 
