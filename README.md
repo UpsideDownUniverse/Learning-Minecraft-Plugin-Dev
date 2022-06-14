@@ -24,4 +24,4 @@ If you want to get in touch with me the following are my social handles:
 ## Chapters
 
 ### Initializing
-- [✔️] 1️⃣ => (Introduction)
+- [✔️] 1️⃣ => [Introduction](https://github.com/UpsideDownUniverse/Learning-Minecraft-Plugin-Dev/blob/6cc7bf28de642d63ddc0ff4084d906305e56f672/Chapters/Chapter01.md)
